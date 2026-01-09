@@ -8,7 +8,7 @@ These notebooks are part of the "competitor analysis" proof-of-concept focused o
 
 Before running these notebooks on Red Hat OpenShift AI, you need to:
 
-1. Prepare the RHOAI environment - See [competitor-analysis setup guide](https://github.com/rsriniva/competitor-analysis)
+1. Prepare the RHOAI environment - See [competitor-analysis setup guide](https://github.com/RedHatQuickCourses/competitor-analysis)
 2. Have documents ingested via the KFP pipeline
 3. Have embeddings stored in Milvus vector store (`competitor-docs`)
 4. Set up Tavily API key for web search (notebooks 5-7)
@@ -131,7 +131,7 @@ client.responses.create(model, input, tools=[{"type": "web_search"}])
 
 ---
 
-### 6. ReAct Agent (`6-smart-agent.ipynb`)
+### 6. Smart Agent (`6-smart-agent.ipynb`)
 
 **Purpose**: Demonstrate custom tool calling with multi-tool agent workflows.
 
